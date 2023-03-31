@@ -18,7 +18,7 @@ const Tax=totalPrice*7/100;
 const grandTotal= totalPrice + totalShiping + Tax
  
   return (
-    <div className='cart '>
+    <div className='cart'>
         <h4>Order Summary</h4>
         <p>Selected Items :{cart.length}</p>
         <p>Total Price:${totalPrice}</p>
